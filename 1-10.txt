@@ -1,0 +1,196 @@
+https://mystore.stc.com.sa
+
+1-GET: https://mystore.stc.com.sa/Compare.do?actionToDo=compareItemsResult%27+AND+%271%27%3D%271%27+--+
+
+PAR:
+actionToDo
+
+Risk:
+Critical
+
+Des:
+The page results were successfully manipulated using the boolean conditions [compareItemsResult' AND '1'='1' -- ] and [compareItemsResult' OR '1'='1' -- ]
+The parameter value being modified was stripped from the HTML output for the purposes of the comparison
+Data was NOT returned for the original parameter.
+The vulnerability was detected by successfully retrieving more data than originally returned, by manipulating the parameter
+
+Ref:
+https://www.owasp.org/index.php/Top_10_2010-A1
+
+**************************************************************************
+
+
+2-GET: https://mystore.stc.com.sa/ForgotPasswordSubmit.do?query=query+AND+1%3D1+--+
+
+
+PAR:
+query
+
+Risk:
+Critical
+
+Des:
+The page results were successfully manipulated using the boolean conditions [query AND 1=1 -- ] and [query AND 1=2 -- ]
+The parameter value being modified was NOT stripped from the HTML output for the purposes of the comparison
+Data was returned for the original parameter.
+The vulnerability was detected by successfully restricting the data originally returned, by manipulating the parameter
+
+Ref:
+https://www.owasp.org/index.php/Top_10_2010-A1
+
+**************************************************************************
+
+3-GET: https://mystore.stc.com.sa/Welcome.do?query=query+AND+1%3D1+--+
+
+PAR:
+query
+
+Risk:
+Critical
+
+Des:
+The page results were successfully manipulated using the boolean conditions [query AND 1=1 -- ] and [query AND 1=2 -- ]
+The parameter value being modified was stripped from the HTML output for the purposes of the comparison
+Data was returned for the original parameter.
+The vulnerability was detected by successfully restricting the data originally returned, by manipulating the parameter
+
+Ref:
+https://www.owasp.org/index.php/Top_10_2010-A1
+
+**************************************************************************
+
+4-POST: https://mystore.stc.com.sa/AdvancedSearch.do
+
+PAR:
+nationalId
+
+Risk:
+Critical
+
+Des:
+The page results were successfully manipulated using the boolean conditions [ZAP AND 1=1 -- ] and [ZAP AND 1=2 -- ]
+The parameter value being modified was NOT stripped from the HTML output for the purposes of the comparison
+Data was returned for the original parameter.
+The vulnerability was detected by successfully restricting the data originally returned, by manipulating the parameter
+
+Ref:
+https://www.owasp.org/index.php/Top_10_2010-A1
+
+**************************************************************************
+
+5-POST: https://mystore.stc.com.sa/AdvancedSearch.do
+
+
+PAR:
+pageURL
+
+Risk:
+Critical
+
+Des:
+The page results were successfully manipulated using the boolean conditions [ AND 1=1 -- ] and [ AND 1=2 -- ]
+The parameter value being modified was NOT stripped from the HTML output for the purposes of the comparison
+Data was returned for the original parameter.
+The vulnerability was detected by successfully restricting the data originally returned, by manipulating the parameter
+
+Ref:
+https://www.owasp.org/index.php/Top_10_2010-A1
+
+**************************************************************************
+
+6-POST: https://mystore.stc.com.sa/AdvancedSearch.do
+
+PAR:
+password
+
+Risk:
+Critical
+
+Des:
+The page results were successfully manipulated using the boolean conditions [ZAP' AND '1'='1' -- ] and [ZAP' AND '1'='2' -- ]
+The parameter value being modified was NOT stripped from the HTML output for the purposes of the comparison
+Data was returned for the original parameter.
+The vulnerability was detected by successfully restricting the data originally returned, by manipulating the parameter
+
+Ref:
+https://www.owasp.org/index.php/Top_10_2010-A1
+
+**************************************************************************
+
+7-POST: https://mystore.stc.com.sa/AdvancedSearch.do
+
+PAR:
+userName
+
+Risk:
+Critical
+
+Des:
+The page results were successfully manipulated using the boolean conditions [ZAP AND 1=1 -- ] and [ZAP AND 1=2 -- ]
+The parameter value being modified was NOT stripped from the HTML output for the purposes of the comparison
+Data was returned for the original parameter.
+The vulnerability was detected by successfully restricting the data originally returned, by manipulating the parameter
+
+Ref:
+https://www.owasp.org/index.php/Top_10_2010-A1
+
+**************************************************************************
+
+8-POST: https://mystore.stc.com.sa/AdvancedSearch.do?query=query+AND+1%3D1+--+
+
+PAR:
+query
+
+Risk:
+Critical
+
+Des:
+The page results were successfully manipulated using the boolean conditions [query AND 1=1 -- ] and [query AND 1=2 -- ]
+The parameter value being modified was NOT stripped from the HTML output for the purposes of the comparison
+Data was returned for the original parameter.
+The vulnerability was detected by successfully restricting the data originally returned, by manipulating the parameter
+
+Ref:
+https://www.owasp.org/index.php/Top_10_2010-A1
+
+**************************************************************************
+
+9-POST: https://mystore.stc.com.sa/Compare.do?actionToDo=compareItemsResult
+
+PAR:
+nationalId
+
+Risk:
+Critical
+
+Des:
+The page results were successfully manipulated using the boolean conditions [ZAP AND 1=1 -- ] and [ZAP OR 1=1 -- ]
+The parameter value being modified was NOT stripped from the HTML output for the purposes of the comparison
+Data was NOT returned for the original parameter.
+The vulnerability was detected by successfully retrieving more data than originally returned, by manipulating the parameter
+
+Ref:
+https://www.owasp.org/index.php/Top_10_2010-A1
+
+**************************************************************************
+
+10-POST: https://mystore.stc.com.sa/Compare.do?actionToDo=compareItemsResult
+
+
+PAR:
+pageURL
+
+Risk:
+Critical
+
+Des:
+The page results were successfully manipulated using the boolean conditions [ AND 1=1 -- ] and [ AND 1=2 -- ]
+The parameter value being modified was NOT stripped from the HTML output for the purposes of the comparison
+Data was returned for the original parameter.
+The vulnerability was detected by successfully restricting the data originally returned, by manipulating the parameter
+
+Ref:
+https://www.owasp.org/index.php/Top_10_2010-A1
+
+**************************************************************************
+
